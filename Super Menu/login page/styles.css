@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(255, 142, 33);
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    width: 1400px;
+    height: 650px;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    width: 70%;
+    height: 100%;
+    margin-left: 100px;
+    position: re;
+}
+h2{
+    font-size: medium;
+    color: rgb(178, 178, 178);
+}
+h3{
+    font-size: x-large;
+}
+h4{
+    font-size: small;
+    color: rgb(178, 178, 178);
+}
+label{
+    color: gray;
+    font-size: smaller;
+    font-weight: bolder;
+}
+input[type="email"] {
+  width: 700px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+}
+
+input[type="email"]:focus {
+  border-color: #0066cc;
+}
+input[type="password"] {
+  width: 700px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+}
+
+input[type="password"]:focus {
+  border-color: #0066cc;
+}
+.pp{
+    display: inline-block;
+    float: right;
+    color: gray;
+    font-size: smaller;
+}
+button{
+    color: white;
+    background-color: rgb(255, 142, 33);
+    width: 700px;
+    padding: 15px;
+    border-radius: 10px;
+}
+input[type="email"]::placeholder{
+color: gray;
+}
+input[type="password"]::placeholder{
+color: gray;
+}
+
+form>p{
+    color: gray;
+}
+a{
+    text-decoration: none;
+    color: blue;
+    font-weight: bolder;
+}
+.name{
+    font-size: 100px;
+    font-weight: bolder;
+
+}
+.name>span{
+    color: white;
+}
+
+@media (max-width: 1400px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    width: 55%;
+    height: 100%;
+    margin-left: 100px;
+    position: re;
+}
+  
+  input[type="email"],
+  input[type="password"] {
+    width: 600px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  input[type="email"]:focus,
+  input[type="password"]:focus {
+    border-color: #0066cc;
+  }
+  button{
+    color: white;
+    background-color: rgb(255, 142, 33);
+    width: 600px;
+    padding: 15px;
+    border-radius: 10px;
+}
+}
+
+@media (max-width: 1090px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    width: 55%;
+    height: 100%;
+    margin-left: 100px;
+    position: re;
+}
+  
+  input[type="email"],
+  input[type="password"] {
+    width: 400px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  input[type="email"]:focus,
+  input[type="password"]:focus {
+    border-color: #0066cc;
+  }
+  button{
+    color: white;
+    background-color: rgb(255, 142, 33);
+    width: 400px;
+    padding: 15px;
+    border-radius: 10px;
+}
+}
+
+@media (max-width: 760px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    width: 55%;
+    height: 100%;
+    margin-left: 100px;
+    position: re;
+}
+  
+  input[type="email"],
+  input[type="password"] {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  input[type="email"]:focus,
+  input[type="password"]:focus {
+    border-color: #0066cc;
+  }
+  button{
+    color: white;
+    background-color: rgb(255, 142, 33);
+    width: 300px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.name{
+    font-size: 90px;
+    font-weight: bolder;
+
+}
+.name>span{
+    color: white;
+}
+}
+
